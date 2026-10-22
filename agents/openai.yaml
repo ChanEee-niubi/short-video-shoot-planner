@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频拍摄排期"
+  short_description: "逐画面拆分脚本、口播集中排拍、独立素材计数，导出简洁拍摄表"
+  default_prompt: "使用 $short-video-shoot-planner 分析这批脚本，按独立素材排拍，口播集中，输出简版 Excel。"

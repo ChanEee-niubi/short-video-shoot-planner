@@ -1,0 +1,25 @@
+{
+  "source_rows": [
+    {"id":"A-r2","script":"虚构脚本A","sheet":"脚本","row":"2","shot_ids":["A-r2a"]},
+    {"id":"A-r3","script":"虚构脚本A","sheet":"脚本","row":"3","shot_ids":["A-r3a","A-r3b"]},
+    {"id":"B-r2","script":"虚构脚本B","sheet":"脚本","row":"2","shot_ids":["B-r2a"]},
+    {"id":"B-r3","script":"虚构脚本B","sheet":"脚本","row":"3","shot_ids":["B-r3a","B-r3b"]},
+    {"id":"B-r4","script":"虚构脚本B","sheet":"脚本","row":"4","shot_ids":["B-r4a"]},
+    {"id":"B-r5","script":"虚构脚本B","sheet":"脚本","row":"5","shot_ids":["B-r5a"]}
+  ],
+  "shots": [
+    {"id":"A-r2a","source_row":"A-r2","description":"女生坐姿对镜介绍使用感受","delivery":"onsite","status":"ready","speech_id":"A-speech1"},
+    {"id":"A-r3a","source_row":"A-r3","description":"A专用面料纹理特写","delivery":"onsite","status":"ready"},
+    {"id":"A-r3b","source_row":"A-r3","description":"A专用手掌按压回弹特写","delivery":"onsite","status":"ready"},
+    {"id":"B-r2a","source_row":"B-r2","description":"女生坐姿对镜说明选择偏好","delivery":"onsite","status":"ready","speech_id":"B-speech1"},
+    {"id":"B-r3a","source_row":"B-r3","description":"B专用面料纹理特写，另拍一条","delivery":"onsite","status":"ready"},
+    {"id":"B-r3b","source_row":"B-r3","description":"B专用手掌按压回弹特写，另拍一条","delivery":"onsite","status":"ready"},
+    {"id":"B-r4a","source_row":"B-r4","description":"搬开产品露出底面","delivery":"onsite","status":"conditional","condition":"现场有足够搬运人手且确认能安全完成"},
+    {"id":"B-r5a","source_row":"B-r5","description":"明确标识为概念示意的AI画面","delivery":"ai","status":"ready"}
+  ],
+  "groups": [
+    {"id":"G1","label":"第一步：口播集中 ×2","shot_ids":["A-r2a","B-r2a"],"note":"A、B分别录制；集中收音"},
+    {"id":"G2","label":"第二步：面料特写 ×2＋按压回弹 ×2","shot_ids":["A-r3a","B-r3a","A-r3b","B-r3b"],"note":"共用布光，不复用素材"},
+    {"id":"G3","label":"第三步：底面展示 ×1（条件）","shot_ids":["B-r4a"],"note":"需额外搬运人手；单独拍；完整外观拍完再搬动"}
+  ]
+}
